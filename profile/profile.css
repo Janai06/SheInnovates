@@ -1,0 +1,34 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(file:///Users/wabona/Desktop/sheInnovates2022/SheInnovates/profile-pic.png);
+    background-image: url(file:///Users/wabona/Desktop/sheInnovates2022/SheInnovates/background.png); 
+    background-image: url(file:///Users/wabona/Desktop/sheInnovates2022/SheInnovates/menu.png);
+    background-size: cover; 
+    background-position: center;
+    text-align: center; 
+}
+
+/*.profile-box{
+    width: 100%;
+    height: 100vh;
+    background-image: url(file:///Users/wabona/Desktop/sheInnovates2022/SheInnovates/profile-pic.png);
+    background-image: url(file:///Users/wabona/Desktop/sheInnovates2022/SheInnovates/background.png); 
+    background-image: url(file:///Users/wabona/Desktop/sheInnovates2022/SheInnovates/menu.png);
+    background-size: cover; 
+    background-position: center; 
+    text-align: center;
+}
+*/
+body{ 
+    margin: 0;
+    padding: 0;
+    background: url(background.png) no-repeat;
+    background-size:cover; 
+}
