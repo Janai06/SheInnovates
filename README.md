@@ -1,1 +1,1 @@
-# SheInnovates
+# SheInnovates Pick-a-Panther Project
