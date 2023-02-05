@@ -1,0 +1,80 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    background: url(background.png) no-repeat;
+    background-size: cover; 
+}
+
+.box{
+    width: 350px;
+    background: rgba(0,0,3,0.5);
+    padding: 90px; 
+    text-align: center; 
+    margin: auto; 
+    height: 70vh;
+    margin-top: 5%;
+    color: #FFb81c; 
+    font-family: 'Century Gothic' ,sans-serif;
+}
+
+.box-img{
+    border-radius: 50%;
+    width: 295px;
+    height: 230px; 
+}
+
+.box h1{
+    font-size: 40px; 
+    letter-spacing: 4px; 
+    font-weight: 100;
+}
+
+.box h5{
+    font-size: 25px; 
+    letter-spacing: 3px;
+}
+
+.box p{
+    text-align: justify; 
+}
+
+.button{
+    width: 100px;
+
+}
+
+.left-swipe-button, .right-swipe-button{
+    /*make them bigger*/
+    width: 150;
+    height: 50px; 
+    font-size: 20px;
+    margin: 10; 
+    /*add padding to make them look better*/
+    background-color: rgb(11, 11, 186);
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both; 
+    display: table; 
+}
+
+.button-container{
+    text-align: center; 
+    margin-top: 60px; 
+}
+
+.left-swipe-button:active{
+    transform: translateX(-10px);
+}
+
+.right-swipe-button:active{
+    transform: translateX(10px);
+}
+
+.left-swipe-button:active, .right-swipe-button:active{
+    transform: translateX(-10px);
+}

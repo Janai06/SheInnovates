@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="profile.css">
+    <title>Linda Chen's Profile Page</title>
+    <script type = "text/javascript"> 
+        let leftButton = document.querySelector(".left-swipe-button");
+        let rightButton = document.querySelector(".right-swipe-button");
+    
+        leftButton.addEventListener("mousedown", function(){
+            this.style.transform = "translateX(-10px)";
+        }); 
+        
+        leftButton.addEventListener("mouseup", function(){
+        this.style.transform = "translateX(0)";
+        });
+    
+        rightButton.addEventListener("mousedown", function(){
+        this.style.transform = "translateX(10px)";
+        });
+    
+        rightButton.addEventListener("mouseup", function(){
+        this.style.transform = "translateX(0)";
+        });     
+</script>
+
+</head>
+<body>
+    <div class="box">
+        <img src="lindachen.jpeg" alt="" class="box-img">
+        <h1>Linda Chen</h1>
+        <h6></h6>
+        <ul>
+            <ul class = "clearfix">
+            <li><strong>Year:</strong> 2024</li>
+            <li><strong>Age:</strong> 21</li>
+            <li><strong>Gender:</strong> Female</li>
+            <li><strong>Housing:</strong> Guarenteed</li>
+            <li><strong>Living Style:</strong> Single</li>
+            <li><strong>Campus Location:</strong> Lower Campus</li>
+        </ul>
+    </div>
+
+    <div class = "button-container clearfix">
+        <button class= "left-swipe-button"> Left Swipe</button>
+        <button class = "right-swipe-button"> Right Swipe</button>
+    </div>
+</body>
+</html>
